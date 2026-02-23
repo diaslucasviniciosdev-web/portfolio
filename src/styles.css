@@ -1,0 +1,12 @@
+/* Isso garante que a página ocupe a altura toda e o footer fique no fim */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.main-wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Altura total da janela */
+}/* You can add global styles to this file, and also import other style files */

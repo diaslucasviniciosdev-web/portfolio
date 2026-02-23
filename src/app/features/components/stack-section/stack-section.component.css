@@ -1,0 +1,53 @@
+.stack-section {
+  background-color: #1e2229;
+  justify-content: space-between;
+  padding: 35px 55px 10px 35px;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 10px;
+  align-items: center;
+}
+
+.card {
+  width: 170px;
+  height: 100px;
+  align-items: center;
+  background-color: #525a63;
+  border-radius: 12px;      /* Bordas arredondadas ficam mais modernas */
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1); /* Transição suave */
+  cursor: pointer;          /* Muda o mouse para a "mãozinha" */
+  border: 1px solid transparent;
+  /* padding-top: 10px; */
+}
+
+/* O EFEITO HOVER AQUI */
+.card:hover {
+  background-color: #4f4f4f;  /* Escurece um pouco o fundo */
+  transform: translateY(-8px); /* O card "sobe" levemente */
+  border-color: #6366f1;       /* Adiciona uma borda roxa (a cor que usamos no footer) */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); /* Sombra para dar profundidade */
+}
+
+img {
+  width: 160px;
+  height: 95px;
+  max-height: 100px;
+}
+
+
+h1 {
+  /* margin-left: 20px; */
+  font-size: 45px;
+  color: white;
+}
+
+h2 {
+  /* margin-right: 20px; */
+  font-size: 30px;
+  color: white;
+}
+
